@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { LoginPage } from './pageobjects/LoginPage';
 
 test('Purchase an Item', async ({ page }) => {
-    await page.goto('https://saucedemo.com');
+    await page.goto(process.env.URL);
 
 
     // await page.getByRole('textbox', {name: 'Username'}).fill('standard_user');
@@ -11,6 +11,7 @@ test('Purchase an Item', async ({ page }) => {
 
     const loginPage = new LoginPage(page);
     await loginPage.loginWithCredentials('standard_user','secret_sauce');
+    await loginPage.checkSuccessfulLogin();
 
     const itemsContainer = await page.locator('#inventory_container .inventory_item').all();
 

@@ -24,3 +24,16 @@ npm outdated @playwright/test
 npm install -D @playwright/test@latest
 npx playwright install 
 ```
+
+> Run thru console
+
+```
+set NODE_ENV=qa
+npx playwright test tests/saucedemo.spec.ts:4
+```
+
+> Skip Authentication
+```
+npx playwright codegen --save-storage=auth.json
+npx playwright open --load-storage=auth.json https://10.0.2.51
+```

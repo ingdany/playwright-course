@@ -1,0 +1,92 @@
+{
+  "cookies": [
+    {
+      "name": "AUTH_SESSION_ID",
+      "value": "5752a8ed-89ac-4ff7-88b8-1239aa128fc5.ab0172e81117",
+      "domain": "10.0.2.51",
+      "path": "/auth/realms/myRealm/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AUTH_SESSION_ID_LEGACY",
+      "value": "5752a8ed-89ac-4ff7-88b8-1239aa128fc5.ab0172e81117",
+      "domain": "10.0.2.51",
+      "path": "/auth/realms/myRealm/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "KEYCLOAK_SESSION",
+      "value": "myRealm/fa69c7e5-70b4-4d75-8621-c8dc92aa2f0f/5752a8ed-89ac-4ff7-88b8-1239aa128fc5",
+      "domain": "10.0.2.51",
+      "path": "/auth/realms/myRealm/",
+      "expires": 1707478423.261042,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_SESSION_LEGACY",
+      "value": "myRealm/fa69c7e5-70b4-4d75-8621-c8dc92aa2f0f/5752a8ed-89ac-4ff7-88b8-1239aa128fc5",
+      "domain": "10.0.2.51",
+      "path": "/auth/realms/myRealm/",
+      "expires": 1707478423.261079,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "KEYCLOAK_IDENTITY",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4NWU0ODJkNy03MzEwLTQ3YTAtYTIzYi02YmJkOWUwZjBlNWEifQ.eyJleHAiOjE3MDc0Nzg0MjEsImlhdCI6MTcwNzQ0MjQyMSwianRpIjoiOGZjYWUwNDAtMmFjMi00OGJiLThhODItYTMzZjBhODMwYjI1IiwiaXNzIjoiaHR0cHM6Ly8xMC4wLjIuNTE6ODQ0My9hdXRoL3JlYWxtcy9teVJlYWxtIiwic3ViIjoiZmE2OWM3ZTUtNzBiNC00ZDc1LTg2MjEtYzhkYzkyYWEyZjBmIiwidHlwIjoiU2VyaWFsaXplZC1JRCIsInNlc3Npb25fc3RhdGUiOiI1NzUyYThlZC04OWFjLTRmZjctODhiOC0xMjM5YWExMjhmYzUiLCJzaWQiOiI1NzUyYThlZC04OWFjLTRmZjctODhiOC0xMjM5YWExMjhmYzUiLCJzdGF0ZV9jaGVja2VyIjoiRXdMelhJMDR4akdGZ0pFc3ZlYkpEYlBUZEpHX2RRYV9qNjdUNVFWTW5IRSJ9.utlA2Dm17Gq3GZOqp-Q0ElOjwKXV24rBLgIjJWh716Q",
+      "domain": "10.0.2.51",
+      "path": "/auth/realms/myRealm/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_IDENTITY_LEGACY",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4NWU0ODJkNy03MzEwLTQ3YTAtYTIzYi02YmJkOWUwZjBlNWEifQ.eyJleHAiOjE3MDc0Nzg0MjEsImlhdCI6MTcwNzQ0MjQyMSwianRpIjoiOGZjYWUwNDAtMmFjMi00OGJiLThhODItYTMzZjBhODMwYjI1IiwiaXNzIjoiaHR0cHM6Ly8xMC4wLjIuNTE6ODQ0My9hdXRoL3JlYWxtcy9teVJlYWxtIiwic3ViIjoiZmE2OWM3ZTUtNzBiNC00ZDc1LTg2MjEtYzhkYzkyYWEyZjBmIiwidHlwIjoiU2VyaWFsaXplZC1JRCIsInNlc3Npb25fc3RhdGUiOiI1NzUyYThlZC04OWFjLTRmZjctODhiOC0xMjM5YWExMjhmYzUiLCJzaWQiOiI1NzUyYThlZC04OWFjLTRmZjctODhiOC0xMjM5YWExMjhmYzUiLCJzdGF0ZV9jaGVja2VyIjoiRXdMelhJMDR4akdGZ0pFc3ZlYkpEYlBUZEpHX2RRYV9qNjdUNVFWTW5IRSJ9.utlA2Dm17Gq3GZOqp-Q0ElOjwKXV24rBLgIjJWh716Q",
+      "domain": "10.0.2.51",
+      "path": "/auth/realms/myRealm/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lahttps://10.0.2.51:8443/auth/realms/myRealm/protocol/openid-connect/auth?client_id=kaligent-one&redirect_uri=https%3A%2F%2F10.0.2.51%2Fpatients&state=74fdf89a-273f-441b-9dff-aec20e30525b&response_mode=fragment&response_type=code&scope=openid&nonce=cb5a2ef0-8c83-46af-8f72-22cf9aaff5bc&code_challenge=oPvWmsGCoEYCs-Q47DZt6Vf6nm9OMlpdwdOSj2f1pMI&code_challenge_method=S256x"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://10.0.2.51:8443",
+      "localStorage": [
+        {
+          "name": "version",
+          "value": "KaligentOne Version 0.0.1"
+        }
+      ]
+    },
+    {
+      "origin": "https://10.0.2.51",
+      "localStorage": [
+        {
+          "name": "privileges",
+          "value": "U2FsdGVkX19r6OiXw4csj8IzIS4L2CWw0MuDbTjGdS3g7JDdSGbTxcExp4hNWvtfOMQabd1rloaYYFTbzseeLbagk8ubQQn9DcpTfZT+/BWC3/n1oMGw4LvrhoskR4/T9ATKRm0LGEUb4LMYfbqksE6FQBmTpX7epKVUFCX4mARa6wEthzw+WLljesh+dOZf4L0vt2dZR01Vymn8g2Y/5jV6FteMyQOr5Ih+o5XTfy+3/X+QMiZo3m9/Ebw/O7kGRtuWbZbHRYO5nyTCXDTV9/eEDuWt+S1sE/YzzLKKrA8/T2EMKyevMzuLSYSrfICmG4WJBdY/SJjFpgIOmN3QpemCXm9JFG2pe/dHGpMgIUt+I1y7kYoCPA28g7LZd72UM6Y1IGlMOz81CyOqUv39tFO3JX3thdE3I6XRR1ofAyRQEsgcV9LZSG/6EPclZn/OrcLFVnRoB9zGJdCahQMYNg17s2N0hEqqhIyD00Tus8KICV0IFe9G5vAbbZh61otQJdwpmFTwPQ0/58UwGTv9QXdpmiXcnnFsxq/8zg1V6Y719IXI4I3hQ22InUSgRWewM2td4xYGAwpwSNBLWpTOPcpoEMAOI984fPgSpilOe4F5txHzjUUstY/whxpMKGLDjtuVcQleuzAJWTeiiM0pvs0MG4Wv5AMpWKfcARxitnQ0wDOf7BPNOCxNNKTY9KBOeVfgjsq5KU4zVQN7hs3e051pWNYXwxIxQ/rC9jfXx1VubVI41apUCSstEPCTv6dTqPyxLr2MSA6qhvJ2OOL9Los8YSBmUo4PdTFN9M5uevNeOzi6DKFZ/uIEVO+55kvSTzN9wkYlVIJ0aiUFjbwmCl8w0K+tsjqsGe6wjVFv45WNYykEK06hL6dy0a2fdzKBnT9iuAucl6ZKSuzgtDPcwTippJpWWGmNcKiTvGLprAEyzRQk2jns6BZegumPmKaHGoPcbUDxEYdVUFk2j2B+wPR5HkZOnDgxB/PJu1XgAbKpKCLFGARQK2rt5j2mllcBH0GWte2eQIonAYdQMW//un0she3lRCn4FtSQ4em5ovoIHK+CAVsxLumWEQNyw19rmmJm2wXqvUfuYGp2L829l1UktMo+aveRSu0obmIO2WDVMC+aRnWCl/ukD3qRCAhjlz+oisgKWyojxDW2z7TdQ8ci7e+rX73fFGbwN9Bh9g5az+bsWa3rixns3RAYLqHJG1/W+SNpP8wYBkPgkvx4V0H9K7QtIQBzJ8N3h5dIByLijOIvywINd1NI5sN72KmD1eOJ31EC2moHaEsn5Ty61wtCa5RU4dw7xo5jiF8p/mhE8hoD0iKuc5glK258KY3zjYmMkT3LZwZhMkohy6YEFQ6EmoMiM9H4EnIVvnXelolGFPIb30ryF97CwR98d9BmGTOUl+mwlMZSCVQFC+hJSOiYemKJ6Q7qQaj0/1X3i+G2nyq1xsOh0R3b4baVIQpogeUaD92RjzSQNnvnErjm0SLVlf9oYtwcjJ5BdZDbUro4EzWLdl5QkAZ9hWbc79r/ICfrW99Ofm49rt5FTvs8LQ=="
+        },
+        {
+          "name": "userId",
+          "value": "U2FsdGVkX1+3DyhRFRM4LcLWxxy0tNpBnU0iFvzzPWQ="
+        },
+        {
+          "name": "facility",
+          "value": "U2FsdGVkX193E1Pzl4JwijVfb8getKaFtLziqVmbR3A="
+        }
+      ]
+    }
+  ]
+}
